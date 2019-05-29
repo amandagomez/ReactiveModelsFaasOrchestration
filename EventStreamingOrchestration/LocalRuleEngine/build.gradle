@@ -1,0 +1,32 @@
+buildscript {
+    dependencies {
+        // Generate classes from Avro schemas
+        classpath 'com.commercehub.gradle.plugin:gradle-avro-plugin:0.16.0'
+    }
+}
+
+plugins {
+    id 'java'
+}
+apply plugin: "com.commercehub.gradle.plugin.avro"
+
+group 'OrchestratorSimulator'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    maven {
+        url = 'https://packages.confluent.io/maven/'
+    }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'org.apache.kafka:kafka-streams:2.1.0'
+    compile 'io.confluent:kafka-streams-avro-serde:5.1.0'
+    compile 'io.confluent:kafka-avro-serializer:5.1.0'
+    compile 'org.apache.avro:avro:1.8.2'
+    
+}

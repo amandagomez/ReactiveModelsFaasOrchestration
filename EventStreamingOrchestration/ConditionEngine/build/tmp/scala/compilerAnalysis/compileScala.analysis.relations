@@ -1,0 +1,25 @@
+products:
+   /home/ubuntu16/Desktop/codigoTFG/EventStreamingOrchestration/ConditionEngine/src/main/scala/KafkaStreamingApp/StreamProcessor.scala -> /home/ubuntu16/Desktop/codigoTFG/EventStreamingOrchestration/ConditionEngine/build/classes/scala/main/main/scala/KafkaStreamingApp/StreamProcessor$.class
+   /home/ubuntu16/Desktop/codigoTFG/EventStreamingOrchestration/ConditionEngine/src/main/scala/KafkaStreamingApp/StreamProcessor.scala -> /home/ubuntu16/Desktop/codigoTFG/EventStreamingOrchestration/ConditionEngine/build/classes/scala/main/main/scala/KafkaStreamingApp/StreamProcessor$delayedInit$body.class
+   /home/ubuntu16/Desktop/codigoTFG/EventStreamingOrchestration/ConditionEngine/src/main/scala/KafkaStreamingApp/StreamProcessor.scala -> /home/ubuntu16/Desktop/codigoTFG/EventStreamingOrchestration/ConditionEngine/build/classes/scala/main/main/scala/KafkaStreamingApp/StreamProcessor.class
+   /home/ubuntu16/Desktop/codigoTFG/EventStreamingOrchestration/ConditionEngine/src/main/scala/KafkaStreamingApp/TopicConfig.scala -> /home/ubuntu16/Desktop/codigoTFG/EventStreamingOrchestration/ConditionEngine/build/classes/scala/main/main/scala/KafkaStreamingApp/TopicConfig$.class
+   /home/ubuntu16/Desktop/codigoTFG/EventStreamingOrchestration/ConditionEngine/src/main/scala/KafkaStreamingApp/TopicConfig.scala -> /home/ubuntu16/Desktop/codigoTFG/EventStreamingOrchestration/ConditionEngine/build/classes/scala/main/main/scala/KafkaStreamingApp/TopicConfig.class
+binary dependencies:
+   /home/ubuntu16/Desktop/codigoTFG/EventStreamingOrchestration/ConditionEngine/src/main/scala/KafkaStreamingApp/StreamProcessor.scala -> /home/ubuntu16/.gradle/caches/modules-2/files-2.1/io.confluent/kafka-avro-serializer/5.1.0/bcce0a74759daaa8deb6a6bf6b650f1c5ae8b878/kafka-avro-serializer-5.1.0.jar
+   /home/ubuntu16/Desktop/codigoTFG/EventStreamingOrchestration/ConditionEngine/src/main/scala/KafkaStreamingApp/StreamProcessor.scala -> /home/ubuntu16/.gradle/caches/modules-2/files-2.1/io.confluent/kafka-streams-avro-serde/5.1.0/93fcabad72707a388b32972488a258f0e8609912/kafka-streams-avro-serde-5.1.0.jar
+   /home/ubuntu16/Desktop/codigoTFG/EventStreamingOrchestration/ConditionEngine/src/main/scala/KafkaStreamingApp/StreamProcessor.scala -> /home/ubuntu16/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-clients/2.1.0/34d9983705c953b97abb01e1cd04647f47272fe5/kafka-clients-2.1.0.jar
+   /home/ubuntu16/Desktop/codigoTFG/EventStreamingOrchestration/ConditionEngine/src/main/scala/KafkaStreamingApp/StreamProcessor.scala -> /home/ubuntu16/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-streams-scala_2.11/2.0.0/23588d1b6490ea11366c00c8eea94105c49961ef/kafka-streams-scala_2.11-2.0.0.jar
+   /home/ubuntu16/Desktop/codigoTFG/EventStreamingOrchestration/ConditionEngine/src/main/scala/KafkaStreamingApp/StreamProcessor.scala -> /home/ubuntu16/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-streams/2.1.0/ab1d9cf35cf0040a804266279faeaf082d3f66c3/kafka-streams-2.1.0.jar
+   /home/ubuntu16/Desktop/codigoTFG/EventStreamingOrchestration/ConditionEngine/src/main/scala/KafkaStreamingApp/StreamProcessor.scala -> /home/ubuntu16/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.8/36b234834d8f842cdde963c8591efae6cf413e3f/scala-library-2.12.8.jar
+   /home/ubuntu16/Desktop/codigoTFG/EventStreamingOrchestration/ConditionEngine/src/main/scala/KafkaStreamingApp/StreamProcessor.scala -> /home/ubuntu16/Desktop/codigoTFG/EventStreamingOrchestration/ConditionEngine/build/classes/java/main/avro/pojo/Execution.class
+   /home/ubuntu16/Desktop/codigoTFG/EventStreamingOrchestration/ConditionEngine/src/main/scala/KafkaStreamingApp/StreamProcessor.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+   /home/ubuntu16/Desktop/codigoTFG/EventStreamingOrchestration/ConditionEngine/src/main/scala/KafkaStreamingApp/TopicConfig.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+source dependencies:
+   /home/ubuntu16/Desktop/codigoTFG/EventStreamingOrchestration/ConditionEngine/src/main/scala/KafkaStreamingApp/StreamProcessor.scala -> /home/ubuntu16/Desktop/codigoTFG/EventStreamingOrchestration/ConditionEngine/src/main/scala/KafkaStreamingApp/TopicConfig.scala
+external dependencies:
+class names:
+   /home/ubuntu16/Desktop/codigoTFG/EventStreamingOrchestration/ConditionEngine/src/main/scala/KafkaStreamingApp/StreamProcessor.scala -> main.scala.KafkaStreamingApp.StreamProcessor
+   /home/ubuntu16/Desktop/codigoTFG/EventStreamingOrchestration/ConditionEngine/src/main/scala/KafkaStreamingApp/StreamProcessor.scala -> main.scala.KafkaStreamingApp.StreamProcessor$
+   /home/ubuntu16/Desktop/codigoTFG/EventStreamingOrchestration/ConditionEngine/src/main/scala/KafkaStreamingApp/StreamProcessor.scala -> main.scala.KafkaStreamingApp.StreamProcessor$delayedInit$body
+   /home/ubuntu16/Desktop/codigoTFG/EventStreamingOrchestration/ConditionEngine/src/main/scala/KafkaStreamingApp/TopicConfig.scala -> main.scala.KafkaStreamingApp.TopicConfig
+   /home/ubuntu16/Desktop/codigoTFG/EventStreamingOrchestration/ConditionEngine/src/main/scala/KafkaStreamingApp/TopicConfig.scala -> main.scala.KafkaStreamingApp.TopicConfig$

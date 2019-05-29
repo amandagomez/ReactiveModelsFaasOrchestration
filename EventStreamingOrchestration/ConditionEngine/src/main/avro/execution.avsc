@@ -1,0 +1,15 @@
+/* A JSON-based representation of the object that contains the information on each Execution
+Current fields:
+- stage_id: unique id for the Execution
+- stage_par: total number of parallel executions for this Execution and action
+- stage_action: the name of the action to execute
+- next_stage_id: unique id of the following Execution in the workflow
+*/
+{"namespace": "avro.pojo",
+ "type": "record",
+ "name": "Execution",
+         "fields": [
+{"name": "id", "type": "string"},
+{"name": "parallelism", "type": "long"}
+]
+}
