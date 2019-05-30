@@ -1,0 +1,16 @@
+"""
+CONFIGURATION CONSTANTS
+"""
+
+AWS_REGION = 'AWS_REGION'
+
+# Lambda functions role.
+AWS_ROLE_ARN = 'AWS_ROLE_ARN'
+
+LAMBDA_UPDATE = True
+
+VPC_CONFIG = { 'SubnetIds': ['SUBNET',], 'SecurityGroupIds': ['SECURITY_GROUP',]}
+
+REDIS_HOST = 'IP'
+REDIS_PORT = PORT
+REDIS_AUTH = 'REDIS_AUTH'
