@@ -13,9 +13,13 @@ Since FaaS enables event-driven computing, we propose a system that relies in ev
 
 Our protoype for function orchestration is implemented as serverless functions that contain the logic to process events and conditions and trigger the execution of tasks. In consequence, our orchestrator benefits from the inherent scalability of serverless functions and is portable between different Cloud platforms.
 
+![alternativetext](images/native_reactive.png)
+
 ## Event Streaming Orchestration
 In this prototype we focus on events management. Instead of using an external store to follow the workflow execution status and implement the orchestrator as FaaS functions, we manage events that signal occurrences with an event processing service. 
 
 The management of events includes the reception and transformation in order to generate new events that trigger stages of the workflow. This handling is performed by a Condition Engine, that receives the events, groups them following *Conditions* and generates new events. The Condition Engine is implemented with an external event streaming service decoupled from the FaaS functions.
 
 On the other hand, we also need a Rule Engine to manage the orchestration: it receives the generated events from the Condition Engine and triggers executions of actions. Our Rule Engine is developed to test the system but is not our goal to implement it following the Reactive Manifesto requirements. Our goal is to provide a model for function orchestration through events management.
+
+![alternativetext](images/event_streaming.png)
