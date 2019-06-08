@@ -8,6 +8,8 @@ As a result, we present two prototypes. First, an orchestration system in which 
 
 > This project has been developed as a contribution to the H2020 European project CloudButton, which is coordinated by the Cloud and Distributed Systems Lab of the Rovira i Virgili University. The aim of CloudButton is to democratize the access to big data by simplifying the overall life cycle and programming model thanks to serverless technologies. The use of serverless technologies for massive computations would make the infrastructure transparent to the users and ease the access to Big Data. More information on the project can be found in http://cloudbutton.eu/.
 
+Full documentation at https://bit.ly/2K10wNC (English)
+
 ## Native Reactive Orchestration
 Since FaaS enables event-driven computing, we propose a system that relies in events that trigger the execution of tasks. By doing so, we can eliminate blocking mechanisms that are prone to overload systems and induce overheads. Furthermore, events are a suitable alternative to create systems that orchestrate long-running tasks, liberating them from blocking techniques. Also, the event-driven nature of the orchestration allows for flexible compositions that vary in the length and type of tasks. 
 
